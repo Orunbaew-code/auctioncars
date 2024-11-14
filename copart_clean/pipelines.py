@@ -37,7 +37,6 @@ class CopartCleanPipeline:
 
         return item
     
-import mysql.connector
 class SaveToMySQLPipeline:
     
     def __init__(self):
