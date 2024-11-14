@@ -42,9 +42,9 @@ class SaveToMySQLPipeline:
     def __init__(self):
         try:
             self.conn = psycopg2.connect(
-                host = '127.0.0.1',
+                host = '167.88.170.180',
                 user = 'postgres',
-                password = '1505',
+                password = 'Asadbek1505#',
                 database = 'cars',
             )
             self.cur = self.conn.cursor()
