@@ -12,9 +12,9 @@ BOT_NAME = "copart_clean"
 SPIDER_MODULES = ["copart_clean.spiders"]
 NEWSPIDER_MODULE = "copart_clean.spiders"
 SCRAPEOPS_API_KEY = 'fab61549-79f7-4e0b-97cb-647fb46af066'
-FEEDS = {
-    'carsdata.json' : {'format': 'json'}
-}
+# FEEDS = {
+#     'carsdata.json' : {'format': 'json'}
+# }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "copart_clean (+http://www.yourdomain.com)"
